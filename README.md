@@ -32,5 +32,7 @@ Create an interface `Payroll` and implement the following abstract methods in a 
    - `void displayProfile(String department);`
 
 2.**Implement** the `PayrollImpl` class that implements the `Payroll` interface.
+
 3.**Override** all the methods with the `@Override` annotation and make the necessary changes.
+
 4.In the **Main** class, create the `PayrollImpl` object and invoke all the methods by passing the `Developer` and `Designer` objects as implemented in the previous lab.
