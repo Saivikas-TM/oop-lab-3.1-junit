@@ -22,8 +22,8 @@ Create an interface `Payroll` and implement the following abstract methods in a 
 6. `void displayProfile(String department);`
 
 ### Tasks
-1. **Rename** the `Payroll` class to `PayrollImpl` class.
-2. **Create** an interface named `Payroll` with the following methods:
+
+1.**Create** an interface named `Payroll` with the following methods:
    - `void displayProfile(Employee employee);`
    - `float calculateNetSalary(Employee employee);`
    - `float calculateNetSalaryAfterIncrement(Employee employee);`
@@ -31,6 +31,6 @@ Create an interface `Payroll` and implement the following abstract methods in a 
    - `void displayProfile(float fromSalaryRange, float toSalaryRange);`
    - `void displayProfile(String department);`
 
-3. **Implement** the `PayrollImpl` class that implements the `Payroll` interface.
-4. **Override** all the methods with the `@Override` annotation and make the necessary changes.
-5. In the **Main** class, create the `PayrollImpl` object and invoke all the methods by passing the `Developer` and `Designer` objects as implemented in the previous lab.
+2.**Implement** the `PayrollImpl` class that implements the `Payroll` interface.
+3.**Override** all the methods with the `@Override` annotation and make the necessary changes.
+4.In the **Main** class, create the `PayrollImpl` object and invoke all the methods by passing the `Developer` and `Designer` objects as implemented in the previous lab.
