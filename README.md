@@ -23,7 +23,7 @@ Create an interface `Payroll` and implement the following abstract methods in a 
 
 ### Tasks
 
-1.**Create** an interface named `Payroll` with the following methods:
+1. **Create** an interface named `Payroll` with the following methods:
    - `void displayProfile(Employee employee);`
    - `float calculateNetSalary(Employee employee);`
    - `float calculateNetSalaryAfterIncrement(Employee employee);`
@@ -31,8 +31,31 @@ Create an interface `Payroll` and implement the following abstract methods in a 
    - `void displayProfile(float fromSalaryRange, float toSalaryRange);`
    - `void displayProfile(String department);`
 
-2.**Implement** the `PayrollImpl` class that implements the `Payroll` interface.
+2. **Implement** the `PayrollImpl` class that implements the `Payroll` interface.
 
-3.**Override** all the methods with the `@Override` annotation and make the necessary changes.
+3. **Override** all the methods with the `@Override` annotation.
 
-4.In the **Main** class, create the `PayrollImpl` object and invoke all the methods by passing the `Developer` and `Designer` objects as implemented in the previous lab.
+   **Method Instructions:**
+   
+   - **displayProfile(Employee employee)**
+     - Action: Call `employee.displayProfile()`.
+   
+   - **calculateNetSalary(Employee employee)**
+     - Action: Call and return `employee.calculateNetSalary()`.
+   
+   - **calculateNetSalaryAfterIncrement(Employee employee)**
+     - Action: Call and return `employee.calculateNetSalaryAfterIncrement()`.
+   
+   - **displayProfile(int empId)**
+     - Action: Print a message to indicate displaying the profile for the given Employee ID.
+     - Example: `System.out.println("This method display the employee profile with Employee ID ");`
+   
+   - **displayProfile(float fromSalaryRange, float toSalaryRange)**
+     - Action: Print a message to indicate displaying profiles within the given salary range.
+     - Example: `System.out.println("This method display all employee profiles from and to given salary ranges");`
+   
+   - **displayProfile(String department)**
+     - Action: Print a message to indicate displaying profiles for the given department.
+     - Example: `System.out.println("This method display all the employee profiles from a given department");`
+
+4. In the **Main** class, create the `PayrollImpl` object and invoke all the methods by passing the `Developer` and `Designer` objects as implemented in the previous lab.
